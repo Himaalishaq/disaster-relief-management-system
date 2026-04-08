@@ -1,0 +1,47 @@
+[2026-04-05] Added: Disaster Victim: Dila null
+[2026-04-05] Added: Disaster Victim: Alia Ali
+[2026-04-05] Added: Disaster Victim: Hima Ali
+[2026-04-05] Updated: Disaster Victim 11 --- Name: Himaal Ali
+[2026-04-05] Updated: Disaster Victim 11 --- Name: Ishaq Ali
+[2026-04-05] Updated: Disaster Victim 11 --- Name: Ishaq ahmed
+[2026-04-05] Updated: Disaster Victim 11 --- Name: Ishaq ahmed
+[2026-04-05] Updated: Disaster Victim 11 --- Name: Ishaq ahmed
+[2026-04-05] Added: Disaster Victim: Usman Ali
+[2026-04-05] Updated: Disaster Victim 11 --- Name: Ishaq ahmed
+[2026-04-05] Updated: Disaster Victim 12 --- Name: Usman Ali
+[2026-04-05] Updated: Disaster Victim 12 --- Name: Usman Ali
+[2026-04-05] Updated: Disaster Victim 1 --- Name: Teruya Bouillon
+[2026-04-05] Updated: Disaster Victim 1 --- Name: Teruya Bouillon
+[2026-04-05] Soft Deleted: Disaster victim 12 | Name: Usman Ali
+[2026-04-05] Added: Disaster Victim 12
+[2026-04-05] Soft Deleted: Disaster victim 12 | Name: Usman Ali
+[2026-04-05] Added: Disaster Victim 11
+[2026-04-05] Soft Deleted: Disaster victim 11 | Name: Ishaq ahmed
+[2026-04-05] Updated: Cultural requirement(s) for disaster victim 4 | prayer needs: prayer mat
+[2026-04-05] Updated: Removed cultural requirements for disaster victim 4 | type: dietary restrictions
+[2026-04-05] Added: Family relation |  Alex Comprehensiveis the sisterof Amina Al-Farsi
+[2026-04-05] Added: Family relation |  Alex Al-Farsi and Amina null
+[2026-04-05] Added: Family relation |  Freda Bouillon and Teruya null
+[2026-04-05] Added: Family relation |  Freda Bouillon and Teruya null
+[2026-04-05] Added: Family relation |  Freda McDonald and Teruya Bouillon
+[2026-04-05] Added: Medical record for disaster victim 3 | Name: Elisabeth ten Boom | Treatments: Has a broken arm | Date: 2010-07-07
+[2026-04-05] Added: Medical record for disaster victim 10 | Name: Alia Ali | Treatments: fell off of window | Date: 2002-02-02
+[2026-04-06] Added: supply 7 | Type: medicine
+[2026-04-06] Updated: supply 0 | Type: water...allocated to disaster victim Alex Comprehensive (ID: 8)
+[2026-04-06] Added: supply 8 | Type: pillow
+[2026-04-06] Updated: supply 4 | Type: food ration...allocated to disaster victim Amina Al-Farsi (ID: 4)
+[2026-04-06] Added: inquiry | Inquirer: Joseph Bouillon | Subject: Alex Comprehensive | Details of Inquiry: blah blah
+[2026-04-06] Added: inquiry | Inquirer: Nawwal Usman | Subject: Amina Al-Farsi | Details of Inquiry: she is looking for her sister
+[2026-04-06] Added: inquiry | Inquirer: Nawaal Usman | Subject: Dila null | Details of Inquiry: getting married
+[2026-04-06] Added: location 5 | Name: MRU | Address: Calgary SW
+[2026-04-06] Updated: location 5 | Name: MRU ->Mount Royal University
+[2026-04-06] Updated: location 5 | Name: Mount Royal University ->Mount Royal University
+[2026-04-06] Updated: location 5 | Name: Mount Royal University ->MRU uni
+[2026-04-06] Updated: location 5 | Address: Calgary SW ->edmonton sw
+[2026-04-06] Updated: Added skill for disaster victim:  Amina Al-Farsi ( 4) | Skill: Arabic | Category: language | Proficiency: intermediate
+[2026-04-06] Updated: Added skill for disaster victim:  Dila null ( 9) | Skill: counseling | Category: medical | Proficiency: advanced
+[2026-04-06] Updated: Added skill for disaster victim:  Dila null ( 9) | Skill: doctor | Category: medical | Proficiency: beginner
+[2026-04-06] Updated: Added skill for disaster victim:  Elisabeth ten Boom ( 3) | Skill: plumbing | Category: trade | Proficiency: beginner
+[2026-04-06] Updated: Removed skill for disaster victim:  Dila null ( 9) | Skill: doctor
+[2026-04-06] Updated: Removed skill for disaster victim:  Dila null ( 9) | Skill: counseling
+[2026-04-07] Added: Disaster Victim: Nayha Rehman
