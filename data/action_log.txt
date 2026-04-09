@@ -45,3 +45,12 @@
 [2026-04-06] Updated: Removed skill for disaster victim:  Dila null ( 9) | Skill: doctor
 [2026-04-06] Updated: Removed skill for disaster victim:  Dila null ( 9) | Skill: counseling
 [2026-04-07] Added: Disaster Victim: Nayha Rehman
+[2026-04-08] Updated: supply 8 | Type: pillow...allocated to disaster victim Alia Ali (ID: 10)
+[2026-04-09] Added: Disaster Victim: Aya Smith
+[2026-04-09] Updated: Disaster Victim 15 --- Name: Nayha Rehman
+[2026-04-09] Added: Disaster Victim 15
+[2026-04-09] Soft Deleted: Disaster victim 15 | Name: Nayha Rehman
+[2026-04-09] Added: supply 9 | Type: phone
+[2026-04-09] Added: supply 10 | Type: food
+[2026-04-09] Updated: supply 7 | Type: medicine...allocated to disaster victim Aya Smith (ID: 16)
+[2026-04-09] Added: inquiry | Inquirer: Nawaal Usman | Subject: Uknown | Details of Inquiry: has 2 sisters

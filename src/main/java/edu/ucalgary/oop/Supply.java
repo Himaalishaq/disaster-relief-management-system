@@ -23,13 +23,18 @@ public class Supply {
 
 
     public Supply(String type, int quantity) throws IllegalArgumentException {
-        this.type = type;
-        setQuantity(quantity); // Use setter for validation
-        this.perishable = isPerishableType(type);
+        setType(type);
+        setQuantity(quantity);
     }
 
 
-    public void setType(String type) { this.type = type; }
+    public void setType(String type) { 
+        this.type = type; 
+        this.perishable = isPerishableType(type);
+        if (!this.perishable) {
+            this.expirationDate = null;
+        }
+    }
     
     public void setQuantity(int quantity) throws IllegalArgumentException {
         if (quantity < 0) {

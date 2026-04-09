@@ -62,13 +62,19 @@ public class DisasterVictimTest {
 
     @Test
     public void testSetGenderWoman() {
-        victim.setGender("girl");
-        assertEquals("girl", victim.getGender());
+        victim.setGender("Girl");
+        assertEquals("Girl", victim.getGender());
     }
 
     @Test
-    public void testInvalidGenderDefaultToPleaseSpecify() {
-        victim.setGender("unknown");
+    public void testNullGenderDefaultsToPleaseSpecify() {
+        victim.setGender(null);
+        assertEquals("Please specify", victim.getGender());
+    }
+
+    @Test
+    public void testBlankGenderDefaultsToPleaseSpecify() {
+        victim.setGender("   ");
         assertEquals("Please specify", victim.getGender());
     }
 
@@ -112,9 +118,9 @@ public class DisasterVictimTest {
 
     @Test
     public void testAddPersonalBelonging() {
-        Supply supply = new Supply("toothbrushes", 3);
+        Supply supply = new Supply("toothbrushes", 1);
         victim.addPersonalBelonging(supply);
-        assertEquals(3, victim.getPersonalBelongings().length);
+        assertEquals(1, victim.getPersonalBelongings().length);
     }
 
     @Test(expected = IllegalArgumentException.class)

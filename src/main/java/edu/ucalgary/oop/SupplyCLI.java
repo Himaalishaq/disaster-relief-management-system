@@ -138,19 +138,36 @@ public class SupplyCLI {
     }
 
     private void allocateSupply() {
-        String expiryInformation;
+   
         System.out.println("\nAllocate Supply to Disaster Victim");
+        showExpiredLabel();
+        ArrayList<Supply> allSupplies = supplyRepo.getSupplies();
         ArrayList<Supply> available = supplyRepo.getSupplies();
 
+     
+      
+        
+        for (int i = 0; i < allSupplies.size(); i++) {
+            Supply supply = allSupplies.get(i);
+            boolean notAllocated = (supply.getAllocatedId() == null);
+            boolean notExpired = (!supply.isPerishable()) || (!supply.isExpired());
+
+            if (notAllocated && notExpired) {
+                available.add(supply);
+            }
+        }
         if (available.isEmpty()) {
             System.out.println("\nNo available supplies to allocate ");
             return;
         }
+
         System.out.println("\nAvailable Supplies: ");
-        int i;
-        
-        for (i = 0; i < available.size(); i++) {
+       
+        for (int i = 0; i < available.size(); i++) {
             Supply supply = available.get(i);
+            String expiryInformation;
+        
+
             if ((supply.isPerishable()) && (supply.getExpirationDate() != null)) {
                 expiryInformation = " Expires: " + supply.getExpirationDate();
             } else {

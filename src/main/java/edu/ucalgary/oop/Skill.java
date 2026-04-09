@@ -21,6 +21,14 @@ public class Skill {
             throw new IllegalArgumentException( "Invalid proficiency. Has to be: beginner, intermediate, or advanced");
 
         }
+        if (!isValidProficiency(proficiencyLevel)) {
+            throw new IllegalArgumentException("Invalid proficiemcy. Has to be: medical, language, or trade.");
+
+        }
+
+
+
+
         this.skillName = skillName.trim();
         this.category = category.trim().toLowerCase();
         this.proficiencyLevel = proficiencyLevel.trim().toLowerCase();
@@ -78,6 +86,9 @@ public class Skill {
     }
 
     public void setSkillName(String skillName) {
+        if (skillName == null || skillName.trim().isEmpty()){
+            throw new IllegalArgumentException("Skill name can't be empty");
+        }
         this.skillName = skillName;
     }
 
@@ -94,6 +105,9 @@ public class Skill {
     }
 
     public void setProficiencyLevel(String proficiencyLevel) {
+        if (!isValidProficiency(proficiencyLevel)) {
+            throw new IllegalArgumentException("Invalid proficiency. Has to be: beginner, intermediate, or advanced");
+        }
         this.proficiencyLevel = proficiencyLevel;
     }
 
